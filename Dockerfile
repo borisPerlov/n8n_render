@@ -1,3 +1,3 @@
-FROM usefathom/fathom:latest
+FROM n8nio/n8n:latest
 
-CMD ["./fathom", "--config=/etc/secrets/fathom.env", "server"]
+CMD ["./n8n", "--config=/etc/secrets/n8n.env", "server"]
